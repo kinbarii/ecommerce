@@ -19,7 +19,8 @@ public Inventaire(){
   }
 
   public void SupprimerProduit(){
-	System.out.println("Produit supprime avec succes" + produit);
+
+	System.out.println("Produit supprime avec succes" );
   }
 
   public void AfficherInventaire(){

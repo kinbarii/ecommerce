@@ -11,7 +11,7 @@ public class Alimentaire extends Produit{
     public void afficherDetails() {
         System.out.println("Produit alimentaire: " + super.getNom());
         System.out.println("Produit alimentaire: " + super.getPrix());
-        System.out.println("Produit alimentaire: " + dateExpiration());
+        System.out.println("Produit alimentaire: " + dateExpiration);
     }
 }
 
