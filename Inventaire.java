@@ -42,7 +42,6 @@ public Inventaire(){
       System.out.println("Ce produit n'existe pas");
     }
     
-	System.out.println("Produit supprime avec succes"   );
 
   }
 

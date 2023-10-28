@@ -19,11 +19,16 @@ public class GestionnaireInventaire {
          System.out.println("L'electronic ajoutee: ");
          inventaire.ajouterProduit(chandail, 7);
          System.out.println("Le vetement ajoutee: ");
-          inventaire.ajouterProduit(pantalon, 4);
+          inventaire.ajouterProduit(pantalon, 54);
           System.out.println("Le vetement ajoutee: ");
           
        //   String resultat = inventaire.AfficherInventaire();
        //   System.out.println(resultat);
        inventaire.afficherInventaire();
+
+       System.out.println("**************************");
+       inventaire.supprimerProduit(pantalon, 6);
+       inventaire.afficherInventaire();
+
      }
 }
