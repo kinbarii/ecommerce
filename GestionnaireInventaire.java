@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class GestionnaireInventaire {
 
      public static void main(String[] args) {
@@ -8,18 +11,19 @@ public class GestionnaireInventaire {
         Vetements chandail = new Vetements(34, "zara", "medium");
         Vetements pantalon = new Vetements(50, "hm", "large");
         
-       
 
         
-          inventaire.AjouterProduit(pomme, 12);
+          inventaire.ajouterProduit(pomme, 12);
           System.out.println("L'alimentaire ajoutee: ");
-         inventaire.AjouterProduit(laptop, 1);
+         inventaire.ajouterProduit(laptop, 1);
          System.out.println("L'electronic ajoutee: ");
-         inventaire.AjouterProduit(chandail, 7);
+         inventaire.ajouterProduit(chandail, 7);
          System.out.println("Le vetement ajoutee: ");
-          inventaire.AjouterProduit(pantalon, 4);
+          inventaire.ajouterProduit(pantalon, 4);
           System.out.println("Le vetement ajoutee: ");
-          inventaire.AfficherInventaire();
-
+          
+       //   String resultat = inventaire.AfficherInventaire();
+       //   System.out.println(resultat);
+       inventaire.afficherInventaire();
      }
 }
