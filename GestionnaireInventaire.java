@@ -10,15 +10,16 @@ public class GestionnaireInventaire {
         
        
 
-         System.out.println("L'alimentaire ajoutee: " + pomme.toString());
+        
           inventaire.AjouterProduit(pomme, 12);
-         System.out.println("L'electronic ajoutee: " + laptop.getNom());
+          System.out.println("L'alimentaire ajoutee: ");
          inventaire.AjouterProduit(laptop, 1);
-         System.out.println("Le vetement ajoutee: " + chandail.getNom());
+         System.out.println("L'electronic ajoutee: ");
          inventaire.AjouterProduit(chandail, 7);
-         System.out.println("Le vetement ajoutee: " + pantalon.getNom());
+         System.out.println("Le vetement ajoutee: ");
           inventaire.AjouterProduit(pantalon, 4);
-
+          System.out.println("Le vetement ajoutee: ");
+          inventaire.AfficherInventaire();
 
      }
 }
