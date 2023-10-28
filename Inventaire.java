@@ -13,7 +13,7 @@ public Inventaire(){
   public void AjouterProduit(Produit produit, int quantite){
 
 	inventaire.put(produit, quantite);
-	System.out.println("Produit ajoutee avec succes" + produit);
+	System.out.println("Produit ajoutee avec succes" + produit.toString());
 
 
   }
@@ -27,6 +27,8 @@ public Inventaire(){
 	System.err.println("********************************");
 	System.out.println("Ceci est notre inventaire actuel");
   }
+
+  
 
 }
 

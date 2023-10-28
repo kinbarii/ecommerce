@@ -10,7 +10,7 @@ public class GestionnaireInventaire {
         
        
 
-         System.out.println("L'alimentaire ajoutee: " + pomme.getNom());
+         System.out.println("L'alimentaire ajoutee: " + pomme.toString());
           inventaire.AjouterProduit(pomme, 12);
          System.out.println("L'electronic ajoutee: " + laptop.getNom());
          inventaire.AjouterProduit(laptop, 1);

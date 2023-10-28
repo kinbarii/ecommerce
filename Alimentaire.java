@@ -13,5 +13,10 @@ public class Alimentaire extends Produit{
         System.out.println("Produit alimentaire: " + super.getPrix());
         System.out.println("Produit alimentaire: " + dateExpiration);
     }
+
+    public String tosString(){
+
+        return "Nom du produit: " + getNom() + "Prix du produit" + getPrix() + "date expiration: " + dateExpiration;  
+    }
 }
 

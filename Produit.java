@@ -23,6 +23,11 @@ public abstract class Produit {
         return prix;
     }
 
+    public String tosString(){
+
+        return "Nom du produit: " + getNom() + "Prix du produit" + getPrix() ;  
+    }
+
     
 
 }
