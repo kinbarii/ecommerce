@@ -13,7 +13,7 @@ public class Vetements extends Produit {
 
         System.out.println("Produit vetement" + super.getNom());
         System.out.println("Produit vetement" + super.getPrix());
-        System.out.println("Produit vetement" + taille());
+        System.out.println("Produit vetement" + taille);
         System.out.println("*************************************");
 
 

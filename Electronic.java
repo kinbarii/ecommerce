@@ -18,7 +18,7 @@ public void afficherDetails(){
 
     System.out.println("Produit electronic" + super.getNom());
     System.out.println("Produit electronic" + super.getPrix());
-    System.out.println("Produit electronic" + garantie());
+    System.out.println("Produit electronic" + garantie);
     System.out.println("*************************************");
 
 }
